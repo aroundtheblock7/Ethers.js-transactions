@@ -29,7 +29,7 @@ async function main() {
 
     const tx = await wallet.sendTransaction({
         to: addr1,
-        value: ethers.utils.parseEther('22.0'),
+        value: ethers.utils.parseEther('8.0'),
     });
 
     // waits for the tx to be mined so that any subsequent queries are accurate
